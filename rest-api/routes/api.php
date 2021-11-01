@@ -29,6 +29,5 @@ Route::post('/animals', [AnimalController::class, 'store'] );
 # method put
 Route::put('/animals/{id}', [AnimalController::class, 'update']);
 
-
 # method delete   
 Route::delete('/animals/{id}', [AnimalController::class, 'destroy']);
